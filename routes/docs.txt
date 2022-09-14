@@ -1,0 +1,43 @@
+// Route::get('posts' ,[PostController::class , 'index'])           ->  name('posts.index');
+// Route::get('posts/create' ,[PostController::class , 'create'])   ->  name ('posts.create');
+// Route::post('posts/insert' ,[PostController::class , 'insert'])  ->  name('posts.insert');
+
+// route the admin
+// Route::get('admin/admin' ,[PostController::class , 'admin'])     ->  name('admin.admin');
+// Route::get('admin/admin/{id}' ,[PostController::class , 'edit'])     ->  name('admin.edit');
+// Route::post('admin/insert' ,[PostController::class , 'insert'])  ->  name('admin.insert');
+
+// Route::get('admin/update/{id}' ,[PostController::class , 'update '])     ->  name('admin.update');
+// Route::PUT('admin/update/{id}',[PostController::class ,'update'])-> name('admin.update');
+
+
+// Route::get('posts', [PostController::class , 'showUser']) ;
+// Route::get('posts/create', [PostController::class , 'createPost']) ;
+// Route::controller(PostController::class )-> group (function (){
+//     Route::get('posts', 'showUser' ); 
+//     Route::get('posts/create', 'createPost' ); 
+//     Route::get('posts/edit/{id}', 'editPost' ); 
+//     Route::get('posts/update/{id}', 'updatePost' ); 
+//     Route::get('posts/delete/{id}', 'deletePost' ); 
+// });
+// Route::resource('users', UserController::class);
+
+// Route::get('invoke', UserProfileController::class  );
+// Route::resource('users', UserController::class)->only([
+//     'index'
+// ]);
+// Route::resource('users', UserController::class)->expect([
+//     'index'
+// ]);
+
+
+
+
+
+
+
+
+
+// Route::get ('fut/soft/', function () {
+//     return view('fut.softDelete');
+// })-> name ('fut.soft');
