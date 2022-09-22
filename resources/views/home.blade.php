@@ -49,6 +49,7 @@
         <br>
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
+                <!------------------------------------------------------------------->
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                         aria-expanded="true" aria-controls="collapseOne">
@@ -166,6 +167,7 @@
                         </code>
                     </div>
                 </div>
+                <!------------------------------------------------------------------->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -175,10 +177,15 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
+                        <div class="accordion-body text-center ratio ratio-16x9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/kyLuzKbgXAs"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
+                <!------------------------------------------------------------------->
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -193,6 +200,25 @@
                         </div>
                     </div>
                 </div>
+                <!------------------------------------------------------------------->
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                Accordion Item
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                This is the first item's accordion body.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------------------------------------------------------------------->
             </div>
+
         </div>
     @endsection
