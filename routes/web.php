@@ -16,7 +16,7 @@ use App\Http\Controllers\UserController;
  */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 /* ------------------------------------------------------------------------------------------- 
 |  route [ ADMIN ] page  
@@ -36,21 +36,21 @@ Route::controller(PostController::class)->group(function () {
 
 });
 
-/* ----------------------------------------------------------------------------------------
-|  route [ FUT ] page                                                                     !
-------------------------------------------------------------------------------------------- */
+/* 
+ ----------------------------------------------------------------------------------------
+|  route [ FUT ] page                                                                   !
+ ----------------------------------------------------------------------------------------
+*/
 Route::resource('fut', FutController::class);
-
-route::controller(FutController::class)->group(function () {
-    route::get('fut/show/', 'show')->name('fut.show');
-    route::get('fut/show/{id}', 'restore')->name('fut.restore');
-    route::delete('fut/forceDelete/{id}', 'forceDelete')->name('fut.forceDelete');
-});
-
-route::get ('fut/product/{id}',[FutController::class , 'product']) -> middleware ('CheckUser') -> name ('fut.product') ;
 
 Route::controller(UserController::class)->group(function () {
     Route::get('users/', 'index')->name('ship.users');
 });
 Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class , 'index'])->name('home');
+route::controller(FutController::class)->group(function () {
+    route::get('fut/show/', 'show')->name('fut.show');
+    route::get('fut/show/{id}', 'restore')->name('fut.restore');
+    route::delete('fut/forceDelete/{id}', 'forceDelete')->name('fut.forceDelete');
+    route::get ('fut/product/{id}', 'product') -> name ('fut.product');
+});

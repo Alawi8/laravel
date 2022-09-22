@@ -17,7 +17,6 @@
             </a>
 
             <div class="row">
-
                 @foreach ($futs as $fut)
                     <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6">
                         <a class="nav-link active" href="{{route('fut.product',$fut->id)}}">

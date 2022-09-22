@@ -1,7 +1,6 @@
 @extends('../layout/nav')
 
 @section('content')
-    
         @foreach ($posts as $post)
 
         <div class="card" style="width: 18rem;">
@@ -13,10 +12,8 @@
             </div>
           </div>
             <h1></h1>
-            <p></p>
+            <p></p>                
+                
         @endforeach
 
-@endsection
-@section('footer')
-    ffffffffffffffffffffffffffffffffffffffffffff
 @endsection
