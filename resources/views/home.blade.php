@@ -188,44 +188,75 @@
                                     <pre>
 
 Ohh, I’m gonna use every heartbeat
+أوه ، سأستخدم كل نبضة قلب
 Ohh, today not tomorrow
+اووه ، اليوم ليس غدا
 Ohh, I’m diving in so deep
+أوه ، أنا أغوص في العمق
 Ohh, far from the shallows
+أوه ، بعيدًا عن المياه الضحلة
 
 Baby I’m all about headlights
+حبيبي أنا كل شيء عن المصابيح الأمامية
 Blinded by, blinded by the headlights
+أعمته ، أعمته المصابيح الأمامية
 Runnin in, runnin in the headlights
+اضئ ، أضئ المصابيح الأمامية
 Light me up, light me up headlights
+اضئ ، أضئ المصابيح الأمامية
 Baby I’m all about headlights
+حبيبي أنا كل شيء عن المصابيح الأمامية
 
 Baby I’m all about headlights
+حبيبي أنا كل شيء عن المصابيح الأمامية
 Hela, hela headlights
+هيلا المصابيح الامامية هيلا
 Hela, hela headlights
+هيلا المصابيح الامامية هيلا
 Hela, hela headlights
+هيلا المصابيح الامامية هيلا
 
 Ohh, I got a taste of the good life
+أوه ، لقد تذوقت الحياة الجيدة
 Ohh, I’ll never let it go
+أوه ، لن أتركها تذهب أبدًا
 A wild cat, gotta use all my 9 lives
+قطة برية ، يجب أن أستخدم كل ما عندي من 9 أرواح
 Ohhh, I’m gonna do it all
+أوه ، سأفعل كل شيء
 
 And ohh, I’m tippin on the edge
+وأوه ، أنا على الحافة
 And ohh, I don’t wanna be saved
+وأوه ، لا أريد أن أخلص
 And ohh, don’t you pull the breaks
+وأوه ، لا تسحب الفرامل
 Ohh, just take me all the way
+أوه ، فقط خذني طوال الطريق
 
 Baby I’m all about headlights
+حبيبي انا كل الانوار الاماميه
 Blinded by, blinded by the headlights
+أعمته ، أعمته المصابيح الأمامية
 Runnin in, runnin in the headlights
+شغل  ، شغل  المصابيح الأمامية
 Light me up, light me up headlights
+اضئ ، أضئ المصابيح الأمامية
 Baby I’m all about headlights
 
 Baby I’m all about headlights
 Hela, hela headlights
+هيلا , هيلا المصابيح الاماميه
 Hela, hela headlights
+هيلا , هيلا المصابيح الاماميه
 Hela, hela headlights
+هيلا , هيلا المصابيح الاماميه
 
 Ohh, I got a taste of the good life
+أوه ، لقد تذوقت الحياة الجيدة
 Ohh, I’ll never let it go
+أوه ، لن أتركها تذهب أبدًا
+
                                 </pre>
                                 </h4>
                             </code>
@@ -265,6 +296,5 @@ Ohh, I’ll never let it go
                 </div>
                 <!------------------------------------------------------------------->
             </div>
-
         </div>
     @endsection

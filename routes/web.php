@@ -5,6 +5,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\FutController;
 use App\Http\Controllers\UserController;
+use GuzzleHttp\Middleware;
 /* |--------------------------------------------------------------------------
    | Web Routes |
     -------------------------------------------------------------------------- 

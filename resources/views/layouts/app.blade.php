@@ -1,27 +1,9 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+{{-- This is the header page all over the site --}}
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+{{-- call the header.blade.php page --}}
+@include('layouts.header')
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-
-    <title>{{ config('app.name', 'Laravel') }}</title>
-
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    
-    
-    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-
-    <link rel="stylesheet" href="{{URL('style/css/style.css')}}">
-
-    <!-- Scripts -->
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-</head>
-
+{{-- this is body navbar page --}}
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
@@ -85,51 +67,7 @@
             @yield('content')
             
         </main>
-        <footer>
-            <div>
-                <main class="flex-shrink-0">
-                    <div class="container">
-                        <h1 class="mt-5"></h1>
-                        <p class="lead"></p>
-                    </div>
-                </main>
-
-                <footer class="footer mt-auto py-3 bg-dark text-light">
-                    <div class="container text-center">
-                        <div class="row">
-                            <div class="col-xl-3 col-md-4 col-sm-6">
-                                <h5>futs</h5>
-                                <a href="{{ route('fut.index') }}" class="nav-link active ">index</a>
-                                <a href="{{ route('fut.create') }}" class="nav-link active">create</a>
-                                <a href="#" class="nav-link active">softDelete</a>
-                                <a href="" class="nav-link active">term مصطلح</a>
-                            </div >
-                            <div class="col-xl-3 col-md-4 col-sm-6">
-                                <h5>admin</h5>
-                                <a href="{{ route('admin.admin') }}" class="nav-link active">admin</a>
-                                <a href="" class="nav-link active">is هو</a>
-                                <a href="" class="nav-link active">person شخص </a>
-                                <a href="" class="nav-link active">a</a>
-                            </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6">
-                                <h5>posts</h5>
-                                <a href="" class="nav-link active">arch itec ture</a>
-                                <a href="" class="nav-link active">a</a>
-                                <a href="" class="nav-link active">a</a>
-                                <a href="" class="nav-link active">a</a>
-                            </div>
-                            <div class="col-xl-3 col-md-4 col-sm-6">
-                                <h5>doc</h5>
-                                <a href="https://laravel.com/docs/9.x" class="nav-link active">documntation</a>
-                                <a href="" class="nav-link active">a</a>
-                                <a href="" class="nav-link active">a</a>
-                                <a href="" class="nav-link active">a</a>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-        </footer>
-
+{{-- this is get footer page in all website --}}
+        @include('layouts.footer')
 </body>
-
 </html>
