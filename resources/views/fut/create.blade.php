@@ -10,13 +10,16 @@
          @error('title')
              <div class="alert alert-danger">{{ $message }}</div>
          @enderror
+         
          <input class="form-control w-100" class=" @error('title') is-invalid @enderror" type="text" name="body"
              placeholder="enter body"><br>
          @error('title')
              <div class="alert alert-danger">{{ $message }}</div>
          @enderror
 
-         <button class="btn btn-secondary" type="submit">submit </button>
+        <button class="btn btn-secondary" type="submit">
+            submit
+        </button>
 
      </form>
  @endsection
